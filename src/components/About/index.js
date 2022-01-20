@@ -1,11 +1,12 @@
 import React from "react";
+import profileImage from "../../assets/profile/profile-pic.JPG";
 
 function About() {
   // jsx
   return (
-    <section>
+    <section className="my-5">
       <h2> About Me </h2>
-      <img> /* profile photo */ </img>
+      <img src={profileImage} className="my-2 img-thumbnail" alt="profile"></img>
       <div>
         <p>
           I'm baby celiac DIY skateboard af hammock mlkshk snackwave austin
