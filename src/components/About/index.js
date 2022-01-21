@@ -4,7 +4,7 @@ import profileImage from "../../assets/profile/profile-pic.JPG";
 function About() {
   // jsx
   return (
-    <section className="my-5">
+    <section className="my-5" id="aboutme">
       <h2> About Me </h2>
       <img src={profileImage} className="my-2 img-thumbnail" alt="profile"></img>
       <div>
