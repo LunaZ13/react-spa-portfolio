@@ -5,11 +5,11 @@ main {
   padding: 50px 30px;
 }
 :root {
-  --primary: #ff0000;
-  --secondary: #950101;
-  --tertiary: #3d0000;
+  --primary: #00adb5;
+  --secondary: #00fff5;
+  --tertiary: #393e46;
   --light: #fafafa;
-  --dark: #000000;
+  --dark: #222831;
   --darker: #111111;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
@@ -46,14 +46,14 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: fantasy;
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
 }
 
 h1 {
-  font-size: 2.25rem;
+  font-size: 2.75rem;
 }
 
 h2 {
@@ -152,7 +152,7 @@ li {
 }
 
 nav a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 nav  li {
@@ -192,6 +192,11 @@ footer {
 
 .flex-end {
   justify-content: flex-end;
+}
+
+.center {
+	display: flex;
+	justify-content: center;
 }
 
 .mx-1 {
@@ -303,9 +308,4 @@ a {
 
 .navActive {
   color: var(--secondary);
-}
-
-.fab {
-  margin: 15px;
-  color:rgb(228, 46, 1)
 }

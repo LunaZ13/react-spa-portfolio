@@ -4,9 +4,9 @@ import profileImage from "../../assets/profile/profile-pic.JPG";
 function About() {
   // jsx
   return (
-    <section className="my-5" id="aboutme">
-      <h2> About Me </h2>
-      <img src={profileImage} className="my-2 img-thumbnail" alt="profile"></img>
+    <section className="center" id="aboutme">
+      <h2 className="mx-2"> About Me </h2>
+      <img src={profileImage} className="mx-2 img-thumbnail" alt="profile picture"></img>
       <div>
         <p>
           I'm baby celiac DIY skateboard af hammock mlkshk snackwave austin

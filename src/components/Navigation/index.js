@@ -4,7 +4,7 @@ function Nav() {
   // jsx
   return (
    <div>
-       <nav>
+       <nav> 
            <ul className="flex-row">
                <li className="mx-2">
                 <a href="#aboutme">About Me</a>

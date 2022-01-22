@@ -7,7 +7,6 @@ import Footer from "./components/Footer"
 import "./App.css";
 
 function App() {
-  // var projects = [{name: 'Weather App'}, {name: 'Trivia Game'},{name: 'Calculator Game'}, {name: 'Click Game'}]
   const [projects, setProjects] = useState([
     { name: "Weather App" },
     { name: "Trivia Game" },
@@ -26,11 +25,11 @@ function App() {
     <div>
       <Header />
       <main>
-        <About></About>
+        <About />
         {projects.map((eachProj) => {
           return <Projects name={eachProj.name} tom={"Tutor"} />;
         })}
-        <ContactForm></ContactForm>
+        <ContactForm />
         <Footer />
       </main>
     </div>
