@@ -3,6 +3,7 @@ import React from "react";
 function Projects() {
 
     const portfolio = [
+
 		{
 			name: 'Capital Opulence',
 			image: 'capital-opulence.png',
@@ -78,14 +79,19 @@ function Projects() {
 		},
 	];
 
-  
     // jsx
   return (
    <div>
-     
-
+       <div className="flex-row">
+           <card>
+               
+           </card>
+       </div>
    </div>
   );
 }
 
 export default Projects;
+
+// {projects.map((eachProj) => {
+//     return <Projects name={eachProj.name} tom={"Tutor"} />;

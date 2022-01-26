@@ -11,8 +11,8 @@ function Header(props) {
         <h1 className="mx-2"> Inmar Luna </h1>
         <Nav setContactSelected={props.setContactSelected}
         setResumeSelected={props.setResumeSelected} />
-        
-        {props.contactSelected || props.resumeSelected ? '' : (   <img src={coverImage} style={ {width: "100%"} }></img>)}
+        {/* this will hide cover image when resume or contact is clicked */}
+        {props.contactSelected || props.resumeSelected ? '' : (   <img src={coverImage} style={ {width: "100%"} } alt="cover"></img>)}
      
     </section>
   );

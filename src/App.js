@@ -9,15 +9,12 @@ import "./App.css";
 
 function App() {
   const [projects, setProjects] = useState([
-    { name: "Weather App" },
-    { name: "Trivia Game" },
+    { name: "Capital Opulence"},
+    { name: "Movie Finder"}
   ]);
-
+  
   const [contactSelected, setContactSelected] = useState(false);
   const [resumeSelected, setResumeSelected] = useState(false);
-
-  console.log("Contact seclted state!!!! tre or false flag", contactSelected);
-  console.log('REsume state!!', resumeSelected)
 
   return (
     <div>
@@ -33,8 +30,8 @@ function App() {
         ) : (
           <>
             <About />
-            {projects.map((eachProj) => {
-              return <Projects name={eachProj.name} tom={"Tutor"} />;
+            {projects.map((eachProject) => {
+              return <Projects name={eachProject.name} />
             })}
           </>
         )}
