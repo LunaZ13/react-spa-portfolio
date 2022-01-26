@@ -37,19 +37,19 @@ function ContactForm() {
     //jsx
     return (
         <section className="container my-2" id="contact">
-            <div>
+            <div className="center my-2">
                 <h1>Get In Touch</h1>
             </div>
             <form onSubmit={handleSubmit}>
-                <div>
+                <div className="my-2">
                     <label htmlFor="name">Name:</label>
                     <input type="text" name="name" defaultValue={formState.name} onBlur={handleChange}></input>
                 </div>
-                <div>
+                <div className="my-2">
                     <label htmlFor="email">Email Address:</label>
                     <input type="email" name="email" defaultValue={formState.email} onBlur={handleChange}></input>
                 </div>
-                <div>
+                <div className="my-2">
                     <label htmlFor="message">Message:</label>
                     <textarea name="message" rows="6" defaultValue={formState.message} onBlur={handleChange}></textarea>
                 </div>

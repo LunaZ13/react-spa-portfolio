@@ -72,10 +72,6 @@ h5 {
   font-size: 1.25rem;
 }
 
-h6 {
-  font-size: 1rem;
-}
-
 p {
   font-size: 1.1rem;
   margin-top: 0;
@@ -93,7 +89,7 @@ a:hover {
 }
 
 header {
-  background: var(--dark);
+  background: var(--tertiary);
 }
 
 header a {
@@ -178,7 +174,7 @@ footer {
 }
 
 .container {
-  width: 85%;
+  width: 80%;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -307,5 +303,5 @@ a {
 }
 
 .navActive {
-  color: var(--secondary);
+  color: var(--tertiary);
 }

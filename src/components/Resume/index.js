@@ -6,13 +6,13 @@ const Resume = () => {
 			<div className="center">
 				<h1>My Resume</h1>
 			</div>
-			<div className="my-2">
+			<div className="my-2 center">
 				<a href="https://github.com/LunaZ13/react-spa-portfolio/raw/develop/src/assets/resume.pdf">
-					<h4>Download my Resume</h4>
+					<h3>Download my Resume</h3>
 				</a>
 			</div>
 			<div>
-				<h5>Front-End Proficiencies</h5>
+				<h4>Front-End Proficiencies</h4>
 				<ol>
 					<li>HTML5</li>
 					<li>CSS3</li>
@@ -23,7 +23,7 @@ const Resume = () => {
 					<li>responsive design</li>
 				</ol>
 				<br></br>
-				<h5>Back-End Proficiencies</h5>
+				<h4>Back-End Proficiencies</h4>
 				<ol>
 					<li>APIs</li>
 					<li>NodeJS</li>
@@ -33,7 +33,7 @@ const Resume = () => {
 					<li>Progressive Web Applications (PWA)</li>
 				</ol>
 				<br></br>
-				<h5>Database Proficiencies</h5>
+				<h4>Database Proficiencies</h4>
 				<ol>
 					<li>MySQL</li>
 					<li>Sequelize</li>
