@@ -7,7 +7,7 @@ const Resume = () => {
 				<h1>My Resume</h1>
 			</div>
 			<div className="my-2">
-				<a href="https://github.com/LunaZ13/react-spa-portfolio/raw/main/src/assets/resume.pdf">
+				<a href="https://github.com/LunaZ13/react-spa-portfolio/raw/develop/src/assets/resume.pdf">
 					<h4>Download my Resume</h4>
 				</a>
 			</div>
