@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# React SPA Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
 
-## Available Scripts
+## Description: 
+A CMS-style blog site, similar to a wordpress site. Developers can publish their blog posts and comment on other developer's posts as well. This site was built from scratch and uses the MVC paradigm in its architectural structure.
 
-In the project directory, you can run:
+## Installation:
+1. Clone repository: git@github.com:LunaZ13/tech-blog-MVC.git
+2. Run `mysql -u root -p` 
+3. Enter password from .env file.
+4. Run `source db/schema.sql` to create the database, then `quit`.
+5. Run `node server.js` to connect to server.
 
-### `npm start`
+## Usage:
+User is able to sign up by creating a username and password. Then user can log in and log out, user can can also click on dashboard link. User is able to create new blog posts, edit posts, and delete posts when logged in. User can also comment on posts created by other users.
+Click on the following link to view site https://morning-oasis-23318.herokuapp.com/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Alt Text](Images/Screenshot.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Contributing:
+Feel free to fork project and reach out.
 
-### `npm test`
+## Built With:
+* HTML
+* CSS 
+* JavaScript
+* Node.js
+* Express.js
+* Handlebars Js
+* dotenv, MySQL2, Sequelize packages
+* Heroku
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Credits:
+Created by Inmar Luna :grinning:
 
-### `npm run build`
+## License 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Copyright (c) [2022] [Inmar Luna]
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is

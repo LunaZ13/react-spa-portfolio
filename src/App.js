@@ -8,10 +8,6 @@ import Footer from "./components/Footer";
 import "./App.css";
 
 function App() {
-  const [projects, setProjects] = useState([
-    { name: "Capital Opulence"},
-    { name: "Movie Finder"}
-  ]);
   
   const [contactSelected, setContactSelected] = useState(false);
   const [resumeSelected, setResumeSelected] = useState(false);
@@ -30,9 +26,7 @@ function App() {
         ) : (
           <>
             <About />
-            {projects.map((eachProject) => {
-              return <Projects name={eachProject.name} />
-            })}
+            <Projects />
           </>
         )}
 
