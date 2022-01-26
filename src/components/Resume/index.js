@@ -1,15 +1,15 @@
 import React from "react";
 
-function Resume() {
+const Resume = () => {
 	return (
 		<section>
 			<div className="center">
 				<h1>My Resume</h1>
 			</div>
 			<div className="my-2">
-				<a href={require("")} download>
+				{/* <a href={require("")} download> */}
 					<h4>Download my Resume</h4>
-				</a>
+				{/* </a> */}
 			</div>
 			<div>
 				<h5>Front-End Proficiencies</h5>

@@ -125,8 +125,15 @@ img {
   max-width: 100%;
 }
 
-span[role="img"] {
-  cursor: default;
+span {
+  color: var(--secondary);
+  text-decoration: none;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+span:hover {
+  text-decoration: underline;
 }
 
 form {
@@ -149,10 +156,6 @@ input:focus {
 
 li {
   list-style: none;
-}
-
-nav a:hover {
-  text-decoration: underline;
 }
 
 nav  li {
@@ -298,12 +301,9 @@ button {
 
 a {
 	border-radius: 5px;
-	color: var(--primary);
+	color: var(--secondary);
 	font-weight: 600;
-	padding: 2px 4px;
-	margin-left: -2px;
-	margin-right: -2px;
-	
+	padding: auto;
 }
 
 .navActive {
